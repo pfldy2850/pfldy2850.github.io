@@ -1,180 +1,130 @@
 ---
 layout: home
-title: Jekyll Gitbook Theme
+title: Home
 permalink: /
 ---
+# My WIKI
 
-Make Jelly site have a GitBook look!
+관심있는 것들, 공부해온 것들, 살아온 얘기들
 
-## Demo
+ * 금지 이모지(⛔️ )가 있는 페이지들은 개인적인 사정으로 공유 제한된 페이지입니다.
 
-Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
+## FE
 
-[![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
+---
 
-## Why Jekyll with GitBook
+[Material UI (MUI)](https://boundless-whitefish-53e.notion.site/Material-UI-MUI-a23c6e54b44d47acaab5fe91ec7eff94)
 
-GitBook is an amazing frontend style to present and organize contents (such as book chapters
-and blogs) on Web. The typical to deploy GitBook at [Github Pages][1]
-is building HTML files locally and then push to Github repository, usually to the `gh-pages`
-branch. It's quite annoying to repeat such workload and make it hard for people do version
-control via git for when there are generated HTML files to be staged in and out.
+[React Native](https://boundless-whitefish-53e.notion.site/React-Native-109a9185b31047d682970ce6d2cf1917)
 
-This theme takes style definition out of generated GitBook site and provided the template
-for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
-to [Github Pages][1] without generating and uploading HTML bundle every time when there are
-changes to the original repo.
+## BE
 
-## How to Get Started
+---
 
-This theme can be used just as other [Jekyll themes][1] and support [remote theme][12],
-see [the official guide][13] as well.
+[NestJS](https://boundless-whitefish-53e.notion.site/NestJS-300fad93dd114a5d9b1350d1abcafda8)
 
-You can introduce this jekyll theme into your own site by either
+## Software Engineering
 
-- [Fork][3] this repository and add your markdown posts to the `_posts` folder.
-- Use as a remote theme in your [`_config.yml`][14](just like what we do for this
-  site itself),
+---
 
-```yaml
-remote_theme: sighingnow/jekyll-gitbook
-```
+[GitOps](https://boundless-whitefish-53e.notion.site/GitOps-6572a008f9794a42bb48a382a5f53baa)
 
-### Deploy Locally with Jekyll Serve
+## Language
 
-This theme can be ran locally using Ruby and Gemfiles.
+---
 
-[Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) - GitHub
+[Python](https://boundless-whitefish-53e.notion.site/Python-aac03123399449478ca135764abff089)
 
-## Full-text search
+## ML
 
-The search functionality in jekyll-gitbook theme is powered by the [gitbook-plugin-search-pro][5] plugin and is enabled by default.
+---
 
-[https://sighingnow.github.io/jekyll-gitbook/?q=generated](https://sighingnow.github.io/jekyll-gitbook/?q=generated)
+[Kubeflow](https://boundless-whitefish-53e.notion.site/Kubeflow-2bbab2864fac4a128c20d021bfca0003)
 
-## Code highlight
+[MLFlow](https://boundless-whitefish-53e.notion.site/MLFlow-5592192ddca244e984adb448d014a18a)
 
-The code highlight style is configurable the following entry in `_config.yaml`:
+[TorchServe](https://boundless-whitefish-53e.notion.site/TorchServe-f8380645d7874f0db0435d093a318ca6)
 
-```yaml
-syntax_highlighter_style: colorful
-```
+[Pytorch](https://boundless-whitefish-53e.notion.site/Pytorch-6c60302ec1b84fb0a2cc4dd15ea57a0b)
 
-The default code highlight style is `colorful`, the full supported styles can be found from [the rouge repository][6]. Customized
-style can be added to [./assets/gitbook/rouge/](./assets/gitbook/rouge/).
+[Hugging Face](https://boundless-whitefish-53e.notion.site/Hugging-Face-bcd20600b9d54c0a89d188a67baa0708)
 
-## How to generate TOC
+[Data Format](https://boundless-whitefish-53e.notion.site/Data-Format-a512f0c9f63a4ccf8e87efbc5fa77c1a)
 
-The jekyll-gitbook theme leverages [jekyll-toc][4] to generate the *Contents* for the page.
-The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
-configuration in `_config.yml`:
+[DVC (data version control)](https://boundless-whitefish-53e.notion.site/DVC-data-version-control-bc39dc6a861c4aebb61eaf875babc8b5)
 
-```yaml
-toc:
-    enabled: true
-    h_min: 1
-    h_max: 3
-```
+[jupyter](https://boundless-whitefish-53e.notion.site/jupyter-70852b35ee2742a687a6de45ac2b8d3e)
 
-## Google Analytics, etc.
+## Infra
 
-The jekyll-gitboook theme supports embedding the [Google Analytics][7], [CNZZ][8] and [Application Insights][9] website analytical tools with the following
-minimal configuration in `_config.yaml`:
+---
 
-```yaml
-tracker:
-  google_analytics: "<YOUR GOOGLE ANALYTICS KEY, e.g, UA-xxxxxx-x>"
-```
+[Argo](https://boundless-whitefish-53e.notion.site/Argo-f482701af2ad43e7bf5e05ba046e96be)
 
-Similarly, CNZZ can be added with the following configuration in `_config.yaml`
+[Traefik](https://boundless-whitefish-53e.notion.site/Traefik-d02923a6f8b3457b8bfe93dd0b3e0265)
 
-```yaml
-tracker:
-  cnzz: "<YOUR CNZZ ANALYTICS KEY, e.g., xxxxxxxx>"
-```
+[Apache Airflow](https://boundless-whitefish-53e.notion.site/Apache-Airflow-66cea70f48df4472b9f6bc02bb664d31)
 
-Application Insights can be added with the following configuration in `_config.yaml`
+[kubernetes (k8s)](https://boundless-whitefish-53e.notion.site/kubernetes-k8s-b0e49b14c7894a2dad21e484bfa59570)
 
-```yaml
-tracker:
-  application_insights: "<YOUR APPLICATION INSIGHTS CONNECTION STRING>"
-```
+[docker](https://boundless-whitefish-53e.notion.site/docker-c11df1453f4c40bdb7e697ee3e387d07)
 
-## Extra StyleSheet or Javascript elements
+## Infra - Gateway
 
-You can add extra CSS or JavaScript references using configuration collections:
+---
 
-- extra_css: for additional style sheets. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-- extra_header_js: for additional scripts to be included in the `<head>` tag, after the `extra_css` has been added. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-- extra_footer_js: for additional scripts to be included at the end of the HTML document, just before the site tracking script. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
+[Tyk](https://boundless-whitefish-53e.notion.site/Tyk-b3c7f38250b34d7883d8d0bffd8a3419)
 
-## Customizing font settings
+[KrakenD](https://boundless-whitefish-53e.notion.site/KrakenD-80a5c6b194ab4f619a4ab2c8b2a2e67d)
 
-The fonts can be customized by modifying the `.book.font-family-0` and `.book.font-family-1` entry in [`./assets/gitbook/custom.css`][10],
+[Kong](https://boundless-whitefish-53e.notion.site/Kong-af4b97f8fb6448ffad7a9ce650ea244f)
 
-```css
-.book.font-family-0 {
-    font-family: Georgia, serif;
-}
-.book.font-family-1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-```
+## Infa - Data Processing & DB
 
-## Tips, Warnings and Dangers blocks
+---
 
-The jekyll-gitbook theme supports customized kramdown attributes (`{: .block-tip }`, `{: .block-warning }`,
-`{: .block-danger }`) like that displayed in [the discord.js website][11]. The marker can be used like
+[MongoDB](https://boundless-whitefish-53e.notion.site/MongoDB-bdfb0816608744afa9d3d917e3282158)
 
-```markdown
-> ##### TIP
->
-> This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have
-> this or a similar version after installation.
-{: .block-tip }
-```
+[Kafka](https://boundless-whitefish-53e.notion.site/Kafka-63a0510fc6904fd8a4ad62ff9694321b)
 
-Rendered page can be previewed from
+[ES](https://boundless-whitefish-53e.notion.site/ES-d12c9a8ae2084ab9968255e510c39468)
 
-[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html)
+[CephFS](https://boundless-whitefish-53e.notion.site/CephFS-d1eb5fd133cc45579c36adc1461c8dab)
 
-## Cover image inside pages
+## ETC
 
-The jekyll-gitbook theme supports adding a cover image to a specific page by adding
-a `cover` field to the page metadata:
+---
 
-```diff
-  ---
-  title: Page with cover image
-  author: Tao He
-  date: 2022-05-24
-  category: Jekyll
-  layout: post
-+ cover: /assets/jekyll-gitbook/dinosaur.gif
-  ---
-```
+[Mac 개발 환경 세팅](https://boundless-whitefish-53e.notion.site/Mac-b33d61dee98a4cc2ba223c05e1030606)
 
-The effect can be previewed from
+[Anaconda setup](https://boundless-whitefish-53e.notion.site/Anaconda-setup-3f999b37106a4e348d9b493426a28cfa)
 
-[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html)
+[Numpy](https://boundless-whitefish-53e.notion.site/Numpy-6d24932e496a43cd858c4360b2f9a925)
 
-## License
+[Helm](https://boundless-whitefish-53e.notion.site/Helm-cac240190483432eb6ff69b97b5763ef)
 
-This work is open sourced under the Apache License, Version 2.0.
+[Git](https://boundless-whitefish-53e.notion.site/Git-d33ca01e12e24e3da7a8109b98b7c38f)
 
-Copyright 2019 Tao He.
+[서버 성능 테스트 가이드](https://boundless-whitefish-53e.notion.site/70c3531a3d384b02a66cde2bacafd50e)
 
-[1]: https://pages.github.com
-[2]: https://pages.github.com/themes
-[3]: https://github.com/sighingnow/jekyll-gitbook/fork
-[4]: https://github.com/allejo/jekyll-toc
-[5]: https://github.com/gitbook-plugins/gitbook-plugin-search-pro
-[6]: https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes
-[7]: https://analytics.google.com/analytics/web/
-[8]: https://www.cnzz.com/
-[9]: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
-[10]: https://github.com/sighingnow/jekyll-gitbook/blob/master/gitbook/custom.css
-[11]: https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas
-[12]: https://rubygems.org/gems/jekyll-remote-theme
-[13]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-[14]: https://github.com/sighingnow/jekyll-gitbook/blob/master/_config.yml
+[리눅스 명령어 모음](https://boundless-whitefish-53e.notion.site/53bf51bc9ecd4a48953788339793b9fd)
+
+[트러블슈팅 이모저모](https://boundless-whitefish-53e.notion.site/2e14a0a6976e48f09440bbf725a6f951)
+
+## Books
+
+---
+
+[마이크로서비스 패턴](https://boundless-whitefish-53e.notion.site/99d66ee29cc34ec4b406d4e4f1fccb06)
+
+## Courses
+
+---
+
+[데이터처리 Overview](https://boundless-whitefish-53e.notion.site/Overview-7a4c42a99efc44c2afc07400715ccc15)
+
+[Linux Shell Scripting](https://boundless-whitefish-53e.notion.site/Linux-Shell-Scripting-ac4626804f7645ddbd4328f8ed39863f)
+
+[MongoDB Baisic](https://boundless-whitefish-53e.notion.site/MongoDB-Baisic-76d91c7f35f246e7afd37da1ed6860e5)
+
+[데이터처리 Overview](My%20WIKI%20b30948b06cb0400e9dc8d8c5a5e42dde/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%20Overview%209384ca16b42744879c0e96298d9076ee.md)
