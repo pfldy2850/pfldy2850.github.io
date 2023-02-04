@@ -35,10 +35,12 @@ if __name__ == "__main__":
     # unzip notion md zip file
     notion_md_unzipped = os.path.splitext(notion_md_copied)[0]
     with zipfile.ZipFile(notion_md_copied, "r") as zip_file:
-        zip_file.extractall(notion_md_unzipped)
+        main_md = zip_file.namelist()[0]
+        zip_file.extract(main_md, notion_md_unzipped)
+        # zip_file.extractall(notion_md_unzipped)
 
     # read main md
-    main_md = [ f for f in os.listdir(notion_md_unzipped) if os.path.isfile(os.path.join(notion_md_unzipped, f))][0]
+    # main_md = [ f for f in os.listdir(notion_md_unzipped) if os.path.isfile(os.path.join(notion_md_unzipped, f))][0]
     main_md_quoted = urllib.parse.quote(main_md)
     main_md_quoted_name = os.path.splitext(main_md_quoted)[0]
     
